@@ -1,0 +1,86 @@
+body {
+
+    margin: 4% auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.8rem;
+    
+    
+  }
+  
+.calculator{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      border: 1px solid #ddd;
+      width: 339px;
+     
+      
+     
+}
+#input{
+    height: 60px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    box-shadow: rgba(32, 28, 221, 0.02) 0px 1px 3px 0px, rgba(6, 10, 255, 0.15) 0px 0px 0px 1px;
+    background-color: rgb(248, 248, 248);
+    
+}
+#result{
+    font-size: 1.2rem;
+    float: right;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.operators button{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+
+}
+.operators div:active{
+    font-weight: bold;
+}
+.leftpannel{
+    display: inline-block;
+    background-color: transparent;
+}
+.numbers button{
+    display: inline-block;
+    padding: 1rem;
+    margin: 1rem;
+ 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    
+    border: 1px solid #ddd;
+}
+.numbers div:active{
+    font-weight: bold;
+}
+.equal {
+    display: inline-block;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    justify-self: center;
+    border-radius: 1px;
+    width: 17%;
+    
+    text-align: center;
+    padding: 127px 10px;
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #4d90fe;
+  
+  }
+  .ff{
+      display: flex;
+  }
+  button:active{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  }
